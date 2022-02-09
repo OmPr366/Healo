@@ -13,14 +13,14 @@ function CategoryTab() {
     const [cat3, setCat3] = useState([]);
 
     const catPAll = async () => {
-        const request = await fetch(`${server}/static/product.json`);
+        const request = await fetch(`${server}/product.json`);
         const allProducts = await request.json();
         const catAllItem = allProducts.filter((item) => item.category);
         setCatAll(catAllItem);
         setActive("1");
     };
     const catP1 = async () => {
-        const request = await fetch(`${server}/static/product.json`);
+        const request = await fetch(`${server}/product.json`);
         const allProducts = await request.json();
         const cat1Item = allProducts.filter((item) => item.category == "jeans");
         setCat1(cat1Item);
@@ -28,14 +28,14 @@ function CategoryTab() {
     };
 
     const catP2 = async () => {
-        const request = await fetch(`${server}/static/product.json`);
+        const request = await fetch(`${server}/product.json`);
         const allProducts = await request.json();
         const cat2Item = allProducts.filter((item) => item.category == "shoe");
         setCat2(cat2Item);
         setActive("3");
     };
     const catP3 = async () => {
-        const request = await fetch(`${server}/static/product.json`);
+        const request = await fetch(`${server}/product.json`);
         const allProducts = await request.json();
         const cat3Item = allProducts.filter((item) => item.category == "jacket");
         setCat3(cat3Item);

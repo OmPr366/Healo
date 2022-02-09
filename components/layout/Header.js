@@ -165,7 +165,7 @@ const Header = ({
               <div className="logo logo-width-1">
                 <Link href="/">
                   <a>
-                    <img src="/assets/imgs/theme/logo.svg" alt="logo" />
+                    <img src="/assets/imgs/theme/logo.png" alt="logo" />
                   </a>
                 </Link>
               </div>
@@ -336,7 +336,7 @@ const Header = ({
               <div className="logo logo-width-1 d-block d-lg-none">
                 <Link href="/">
                   <a>
-                    <img src="/assets/imgs/theme/logo.svg" alt="logo" />
+                    <img src="/assets/imgs/theme/logo.png" alt="logo" />
                   </a>
                 </Link>
               </div>
@@ -904,7 +904,7 @@ const Header = ({
                             </h4>
                             <h3>
                               <span>1 × </span>
-                              $3500.00
+                              Rs3500.00
                             </h3>
                           </div>
                           <div className="shopping-cart-delete">
@@ -920,7 +920,7 @@ const Header = ({
                         <div className="shopping-cart-total">
                           <h4>
                             Total
-                            <span>$383.00</span>
+                            <span>Rs383.00</span>
                           </h4>
                         </div>
                         <div className="shopping-cart-button">

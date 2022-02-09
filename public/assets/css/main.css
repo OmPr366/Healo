@@ -1130,7 +1130,7 @@ h5.widget-title {
 
 .btn-heading,
 button.btn-heading[type="submit"] {
-  background-color: #253D4E;
+  background-color: #F97C7C;
   border-color: #253D4E;
   font-weight: 700;
   border: 0;
@@ -1504,7 +1504,7 @@ textarea:focus {
   padding: 20px 40px;
   color: #ffffff;
   border: none;
-  background-color: #253D4E;
+  background-color: #F97C7C;
   border-radius: 10px;
   font-family: "Quicksand", sans-serif;
 }
@@ -5713,7 +5713,7 @@ table.no-border thead {
   min-width: 150px;
   height: 51px;
   border-radius: 0 10px 10px 0;
-  background-color: #253D4E;
+  background-color: #F97C7C;
 }
 
 .apply-coupon button:hover {
@@ -6582,7 +6582,10 @@ h6.post-title {
 }
 
 .logo a {
-  display: block;
+  display: flex;
+    justify-content: center;
+    height: 53px;
+    align-items: center;
 }
 
 .logo.logo-width-1 {
@@ -7401,7 +7404,7 @@ h6.post-title {
 
 .burger-icon.burger-icon-white>span::before,
 .burger-icon.burger-icon-white>span::after {
-  background-color: #253D4E;
+  background-color: #F97C7C;
 }
 
 .body-overlay-1 {

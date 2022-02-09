@@ -136,7 +136,7 @@ const Footer = () => {
                   <div className="logo  mb-30">
                     <Link href="/">
                       <a className="mb-15">
-                        <img src="/assets/imgs/theme/logo.svg" alt="logo" />
+                        <img src="/assets/imgs/theme/logo.png" alt="logo" />
                       </a>
                     </Link>
                     <p className="font-lg text-heading">

@@ -87,7 +87,7 @@ function Account() {
                                                                         <td>#2468</td>
                                                                         <td>June 29, 2020</td>
                                                                         <td>Completed</td>
-                                                                        <td>$364.00 for 5 item</td>
+                                                                        <td>Rs364.00 for 5 item</td>
                                                                         <td><a href="#" className="btn-small d-block">View</a></td>
                                                                     </tr>
                                                                     <tr>
