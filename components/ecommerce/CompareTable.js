@@ -13,21 +13,21 @@ const CompareTable = ({ data, features, deleteFromCompare, addToCart }) => {
     return (
         <table className="table text-center">
             <tbody>
-                {features.map((feature) => (
-                    <tr>
+                {features.map((feature , i) => (
+                    <tr key={i} >
                         <th
                             className="text-muted font-md fw-600"
                             style={{ textTransform: "capitalize" }}
                         >
                             {feature}
                         </th>
-                        {data.map((product) =>
+                        {data.map((product,i) =>
                             feature == "preview" ? (
-                                <td className="row_img">
+                                <td className="row_img" key={i} >
                                     <img src={product.images[0].img} />
                                 </td>
                             ) : feature == "name" ? (
-                                <td className="product_name">
+                                <td className="product_name" key={i} >
                                     <h5>
                                         <a href="#">{product.title}</a>
                                     </h5>

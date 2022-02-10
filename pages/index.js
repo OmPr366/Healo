@@ -14,17 +14,10 @@ import Link from "next/link";
 import { useEffect } from "react";
 import TawkTo from "tawkto-react";
 
+
 export default function Home() {
-    const tawkToPropertyId = "620295d19bd1f31184db9126";
-  const tawkToKey = "default";  
     useEffect(() => {
-        const tawk = new TawkTo("620295d19bd1f31184db9126", "1frd1ifh7");
-    
-        // tawk.onStatusChange((status) =>
-        // {
-        //     console.log(status)
-        // })
-        
+        const tawk = new TawkTo(process.env.tawkToPropertyId, process.env.tawkToKey);
       });
     return (
         <>

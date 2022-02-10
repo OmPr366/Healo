@@ -29,7 +29,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
   return (
     <>
       <div
-        class={
+        className={
           isToggled
             ? "mobile-header-active mobile-header-wrapper-style sidebar-visible"
             : "mobile-header-active mobile-header-wrapper-style"
@@ -151,7 +151,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
               <nav>
                 <ul className="mobile-menu" ref={domNode}>
                   <li
-                    class={
+                    className={
                       isActive.key == 1
                         ? "menu-item-has-children active"
                         : "menu-item-has-children"
@@ -166,7 +166,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                     <Link href="/index">
                       <a>Home</a>
                     </Link>
-                    <ul class={isActive.key == 1 ? "dropdown" : "d-none"}>
+                    <ul className={isActive.key == 1 ? "dropdown" : "d-none"}>
                       <li>
                         <Link href="/index">
                           <a>Home 1</a>
@@ -190,7 +190,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                     </ul>
                   </li>
                   <li
-                    class={
+                    className={
                       isActive.key == 2
                         ? "menu-item-has-children active"
                         : "menu-item-has-children"
@@ -205,7 +205,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                     <Link href="/shop-grid-right">
                       <a>shop</a>
                     </Link>
-                    <ul class={isActive.key == 2 ? "dropdown" : "d-none"}>
+                    <ul className={isActive.key == 2 ? "dropdown" : "d-none"}>
                       <li>
                         <Link href="/shop-grid-right">
                           <a>Shop Grid – Right Sidebar</a>
@@ -259,7 +259,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                     </ul>
                   </li>
                   <li
-                    class={
+                    className={
                       isActive.key == 3
                         ? "menu-item-has-children active"
                         : "menu-item-has-children"
@@ -274,7 +274,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                     <Link href="#">
                       <a>Mega menu</a>
                     </Link>
-                    <ul class={isActive.key == 3 ? "dropdown" : "d-none"}>
+                    <ul className={isActive.key == 3 ? "dropdown" : "d-none"}>
                       <li className="menu-item-has-children">
                         <span className="menu-expand"></span>
                         <Link href="#">
@@ -362,7 +362,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                     </ul>
                   </li>
                   <li
-                    class={
+                    className={
                       isActive.key == 4
                         ? "menu-item-has-children active"
                         : "menu-item-has-children"
@@ -377,7 +377,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                     <Link href="/blog-category-fullwidth">
                       <a>Blog</a>
                     </Link>
-                    <ul class={isActive.key == 4 ? "dropdown" : "d-none"}>
+                    <ul className={isActive.key == 4 ? "dropdown" : "d-none"}>
                       <li>
                         <Link href="/blog-category-grid">
                           <a>Blog Category Grid</a>
@@ -424,7 +424,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                     </ul>
                   </li>
                   <li
-                    class={
+                    className={
                       isActive.key == 5
                         ? "menu-item-has-children active"
                         : "menu-item-has-children"
@@ -439,7 +439,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                     <Link href="#">
                       <a>Pages</a>
                     </Link>
-                    <ul class={isActive.key == 5 ? "dropdown" : "d-none"}>
+                    <ul className={isActive.key == 5 ? "dropdown" : "d-none"}>
                       <li>
                         <Link href="/page-about">
                           <a>About Us</a>
@@ -483,7 +483,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                     </ul>
                   </li>
                   <li
-                    class={
+                    className={
                       isActive.key == 6
                         ? "menu-item-has-children active"
                         : "menu-item-has-children"
@@ -498,7 +498,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                     <Link href="#">
                       <a>Language</a>
                     </Link>
-                    <ul class={isActive.key == 6 ? "dropdown" : "d-none"}>
+                    <ul className={isActive.key == 6 ? "dropdown" : "d-none"}>
                       <li>
                         <Link href="#">
                           <a>English</a>
